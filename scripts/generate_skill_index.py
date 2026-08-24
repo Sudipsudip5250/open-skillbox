@@ -9,7 +9,7 @@ CATEGORIES = [
     ('Meta and orchestration', ['orchestrator', 'context', 'knowledge', 'project-delivery', 'brainstorming', 'skill-authoring', 'skill-quality', 'cost-efficient', 'tool-selection', 'source-driven']),
     ('Software engineering and quality', ['software-engineering', 'code-review', 'code-simplification', 'codebase-modernization', 'debugging', 'testing', 'test-driven', 'dependency-migration', 'git-workflow', 'api-interface']),
     ('Frontend, design, accessibility, and media', ['frontend', 'react', 'typescript', 'javascript-node', 'ui-ux', 'responsive', 'accessibility', 'browser-testing', 'visual', 'motion', 'threejs', 'media', 'watermark', 'mobile-app']),
-    ('Security, privacy, identity, and trust', ['security', 'privacy', 'identity', 'threat', 'vulnerability', 'authorized-security', 'prompt-injection', 'secrets', 'database-security', 'provenance']),
+    ('Security, privacy, identity, and trust', ['security', 'privacy', 'identity', 'threat', 'vulnerability', 'authorized-security', 'attack-surface', 'access-control', 'remediation-verification', 'agent-tool-permission', 'rules-of-engagement', 'prompt-injection', 'secrets', 'database-security', 'provenance']),
     ('Data, machine learning, analytics, and finance', ['data-analysis', 'data-engineering', 'ml-', 'ai-evaluation', 'growth-analytics', 'finance', 'finops', 'token-cost']),
     ('DevOps, cloud, reliability, and automation', ['docker', 'infrastructure', 'ci-cd', 'observability', 'performance', 'automation']),
     ('Technology foundations and systems', ['systems-design', 'computer-architecture', 'networking', 'operating-systems', 'embedded', 'electronics', 'technical-diagramming']),

@@ -1,9 +1,22 @@
 ---
 name: user-identity-access-security
-description: Design, review, and test authentication, authorization, session management, MFA, OAuth/OIDC, password recovery, service identities, and tenant isolation. Use for login, permissions, roles, tokens, account security, access-control bugs, or identity production readiness.
+description: Design, review, and test authentication, authorization, session management, MFA, OAuth/OIDC, password recovery, service identities, and tenant isolation for systems the user owns or is authorized to assess. Use for scoped login, permissions, roles, tokens, account-security, access-control, or identity production-readiness work.
 ---
 
 # Identity and Access Security
+
+
+## Authorization and Rules of Engagement
+
+Before reviewing private assets or performing any active check, confirm that the user owns the target or has documented contractual authorization. Capture a short Rules of Engagement (ROE) record containing:
+
+- **Authority:** owner, client, engagement reference, and who can approve scope changes.
+- **In scope:** exact URLs, APIs, repositories, applications, accounts, cloud projects, hosts, CIDRs, environments, tenants, and test data.
+- **Out of scope:** excluded assets, accounts, data classes, third parties, production actions, and techniques.
+- **Window and controls:** time window, environment preference, test accounts, allowed tools, rate limits, notification contacts, evidence retention, and redaction rules.
+- **Risk and stops:** whether production is permitted and who accepted the risk; stop on unexpected PII or secrets, instability, destructive impact, scope drift, or any signal that an action is no longer authorized.
+
+Prefer local code, configuration, passive observation, fixtures, and non-production targets. If authority, scope, or stop contacts are missing or ambiguous, do not perform intrusive testing; ask for the missing boundary or limit work to passive and local analysis. Summarize the ROE before active testing and update it before any approved scope change.
 
 ## Workflow
 
@@ -21,6 +34,10 @@ description: Design, review, and test authentication, authorization, session man
 - Do not reveal whether an account exists through messages or timing differences when enumeration matters.
 - Do not weaken MFA, rate limits, session expiry, or recovery controls just to simplify testing or reduce friction without an explicit risk decision.
 - Do not access real accounts or test credentials without authorization.
+
+## Assessment handoff template
+
+Return a concise record with **authority and ROE**, assets and environment tested, out-of-scope items, time window, tools and versions, methods and limitations, and a findings table using: **ID | severity | confidence | asset/location | issue | evidence | impact | remediation | retest status**. Mark findings as confirmed, suspected, false positive, accepted risk, or needs investigation. Redact credentials, tokens, PII, exploit-enabling detail, and private topology. End with residual risk, owner or escalation path, and the next verification or review date.
 
 ## Handoff
 
