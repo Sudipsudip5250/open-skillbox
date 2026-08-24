@@ -31,6 +31,10 @@ Have every material claim trace to a timestamped artifact or reproducible observ
 
 Do not invent vulnerabilities, inflate severity, include unverified exploit claims as facts, expose private data, or publish sensitive details before the owner’s agreed disclosure process. Never request or retain credentials when a safer user-side action is available. Redact secrets, tokens, PII, and private topology from reports.
 
+## Remediation and retest
+
+Prefer a narrow, owner-assigned fix at the boundary that enforces the security property. Record the change, regression or acceptance test, deployment or configuration version, rollback consideration, and residual risk. If this skill only produces intake, mapping, or evidence, hand the confirmed issue to the findings and remediation skills rather than claiming it is fixed.
+
 ## Handoff
 
 Return executive summary, ROE and coverage, methodology, findings table with ID/severity/confidence/asset/issue/evidence/impact/remediation/retest, limitations, residual risk, owners, and disclosure timeline.

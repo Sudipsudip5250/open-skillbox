@@ -31,6 +31,10 @@ Check default-deny behavior, cross-tenant and horizontal/vertical privilege boun
 
 Do not use real accounts, guess credentials, brute-force, harvest tokens, access another user’s data, alter durable records, or treat a denial as permission to escalate further. Never request or retain credentials when a safer user-side action is available. Redact secrets, tokens, PII, and private topology from reports.
 
+## Remediation and retest
+
+Prefer a narrow, owner-assigned fix at the boundary that enforces the security property. Record the change, regression or acceptance test, deployment or configuration version, rollback consideration, and residual risk. If this skill only produces intake, mapping, or evidence, hand the confirmed issue to the findings and remediation skills rather than claiming it is fixed.
+
 ## Handoff
 
 Return the authorization matrix, identities and synthetic assets used, flows tested, redacted evidence, confirmed or suspected findings, remediation, regression tests, retest status, residual risk, and excluded paths.

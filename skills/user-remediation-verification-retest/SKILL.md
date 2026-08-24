@@ -31,6 +31,10 @@ Compare before and after evidence, confirm the deployed version, test both the v
 
 Do not retest production or third-party systems without approval, repeat disruptive actions, declare closure from a scanner-only result, or silently broaden the original scope. Never request or retain credentials when a safer user-side action is available. Redact secrets, tokens, PII, and private topology from reports.
 
+## Remediation and retest
+
+Prefer a narrow, owner-assigned fix at the boundary that enforces the security property. Record the change, regression or acceptance test, deployment or configuration version, rollback consideration, and residual risk. If this skill only produces intake, mapping, or evidence, hand the confirmed issue to the findings and remediation skills rather than claiming it is fixed.
+
 ## Handoff
 
 Return original finding and scope, deployed version, retest cases, evidence, result classification, regression outcome, remediation confirmation, residual risk, closure authority, and follow-up date.

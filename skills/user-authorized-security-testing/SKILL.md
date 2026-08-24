@@ -39,6 +39,10 @@ Do not scan or exploit third-party, public, production, or private targets witho
 
 Return a concise record with **authority and ROE**, assets and environment tested, out-of-scope items, time window, tools and versions, methods and limitations, and a findings table using: **ID | severity | confidence | asset/location | issue | evidence | impact | remediation | retest status**. Mark findings as confirmed, suspected, false positive, accepted risk, or needs investigation. Redact credentials, tokens, PII, exploit-enabling detail, and private topology. End with residual risk, owner or escalation path, and the next verification or review date.
 
+## Remediation and retest
+
+Prefer a narrow, owner-assigned fix at the boundary that enforces the security property. Record the change, regression or acceptance test, deployment or configuration version, rollback consideration, and residual risk. If this skill only produces intake, mapping, or evidence, hand the confirmed issue to the findings and remediation skills rather than claiming it is fixed.
+
 ## Handoff
 
 Deliver scope and authorization, methodology, ASVS/WSTG mapping, findings by severity and confidence, redacted evidence, remediation, retest results, residual risk, and disclosure or escalation path.

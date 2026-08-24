@@ -31,6 +31,10 @@ Verify that every target and technique has an owner or approval, that exclusions
 
 Do not use this skill to manufacture authorization, infer permission from public visibility, bypass a missing approval, or authorize credential theft, persistence, evasion, destructive testing, or third-party access. Never request or retain credentials when a safer user-side action is available. Redact secrets, tokens, PII, and private topology from reports.
 
+## Remediation and retest
+
+Prefer a narrow, owner-assigned fix at the boundary that enforces the security property. Record the change, regression or acceptance test, deployment or configuration version, rollback consideration, and residual risk. If this skill only produces intake, mapping, or evidence, hand the confirmed issue to the findings and remediation skills rather than claiming it is fixed.
+
 ## Handoff
 
 Return authority, scope, exclusions, window, environment, methods, limits, data handling, contacts, stop conditions, risk acceptance, approval state, and the next authorized assessment skill.

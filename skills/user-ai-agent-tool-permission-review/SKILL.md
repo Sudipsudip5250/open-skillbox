@@ -31,6 +31,10 @@ Check tool permissions from the server-side identity, validate schemas and polic
 
 Do not reveal hidden prompts, extract secrets, bypass guardrails, jailbreak models, invoke tools against unauthorized systems, create autonomous exploitation, or treat a successful refusal as the only security control. Never request or retain credentials when a safer user-side action is available. Redact secrets, tokens, PII, and private topology from reports.
 
+## Remediation and retest
+
+Prefer a narrow, owner-assigned fix at the boundary that enforces the security property. Record the change, regression or acceptance test, deployment or configuration version, rollback consideration, and residual risk. If this skill only produces intake, mapping, or evidence, hand the confirmed issue to the findings and remediation skills rather than claiming it is fixed.
+
 ## Handoff
 
 Return ROE and system map, tool-permission matrix, benign cases and outcomes, data-flow and exfiltration findings, controls, evidence, severity and confidence, remediation, regression and retest status, and residual risk.

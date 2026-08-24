@@ -30,6 +30,10 @@ Validate schema and runtime differences, authentication and authorization at the
 
 Do not attack public APIs without authorization, enumerate unrelated tenants, send destructive payloads, stress services, bypass rate limits, exfiltrate data, or publish weaponized requests. Never request or retain credentials when a safer user-side action is available. Redact secrets, tokens, PII, and private topology from reports.
 
+## Remediation and retest
+
+Prefer a narrow, owner-assigned fix at the boundary that enforces the security property. Record the change, regression or acceptance test, deployment or configuration version, rollback consideration, and residual risk. If this skill only produces intake, mapping, or evidence, hand the confirmed issue to the findings and remediation skills rather than claiming it is fixed.
+
 ## Handoff
 
 Return API inventory and scope, schema and version, roles and test data, cases and rate limits, redacted evidence, severity and confidence, remediation, regression and retest status, and residual risk.

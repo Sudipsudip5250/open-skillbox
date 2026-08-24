@@ -31,6 +31,10 @@ Reconcile the map against deployment and repository inventories, check that disc
 
 Do not scan arbitrary internet ranges, enumerate third-party infrastructure, bypass access controls, fingerprint covertly, collect unnecessary content, or turn mapping into exploitation or persistence. Never request or retain credentials when a safer user-side action is available. Redact secrets, tokens, PII, and private topology from reports.
 
+## Remediation and retest
+
+Prefer a narrow, owner-assigned fix at the boundary that enforces the security property. Record the change, regression or acceptance test, deployment or configuration version, rollback consideration, and residual risk. If this skill only produces intake, mapping, or evidence, hand the confirmed issue to the findings and remediation skills rather than claiming it is fixed.
+
 ## Handoff
 
 Return the ROE reference, asset inventory, trust-boundary and data-flow map, exposure and identity summary, evidence and timestamps, uncertainty, prioritized test candidates, exclusions, and owner assignments.
