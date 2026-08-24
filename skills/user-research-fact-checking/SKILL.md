@@ -1,6 +1,6 @@
 ---
 name: user-research-fact-checking
-description: Conduct focused, source-based research, verify claims, compare evidence, and produce transparent citations. Use for factual questions, market or domain investigation, comparisons, current information, literature review, and decisions that depend on external evidence.
+description: Conduct focused, source-based research, verify claims, compare evidence, and produce transparent citations. Use for factual questions, market or domain investigation, comparisons, current information, and decisions that depend on external evidence.
 ---
 
 # Research and Fact-Checking
@@ -20,10 +20,20 @@ description: Conduct focused, source-based research, verify claims, compare evid
 
 Prefer primary and official sources, then high-quality independent research, then specialist reporting, and finally community material for leads or practical context. Match source strength to claim importance. Use multiple sources when a single source may be biased, incomplete, or stale.
 
+## Routing boundary
+
+Use this skill for general factual investigation, comparisons, current information, and source verification. Defer to scientific research for literature reviews, experimental evidence, reproducibility, or scientific synthesis; to mathematics skills for derivations; to domain science skills for chapter-level problem solving; to data analysis for calculations and datasets; and to documentation for publication formatting.
+
 ## Evidence table
 
 | Claim | Evidence | Source/date | Confidence | Limitation |
 |---|---|---|---|---|
 | The precise statement being evaluated | What the source actually shows | URL or citation and date | High/medium/low | Scope, freshness, or methodological caveat |
 
-Do not fill evidence gaps with plausible wording. If a current answer cannot be verified, say so and explain what would resolve the uncertainty.
+## When not to use this skill
+
+Do not use it as a substitute for a specialized scientific, legal, medical, financial, or security workflow when the request depends on domain-specific standards. Do not present search discovery, a single weak source, or a plausible explanation as verified fact.
+
+## Handoff
+
+Report the question and subclaims, search scope, source hierarchy, evidence table, verified findings, calculations, interpretations, uncertainty, limitations, date current, and references. Do not fill evidence gaps with plausible wording; state what would resolve them.

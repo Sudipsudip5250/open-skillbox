@@ -29,3 +29,12 @@ description: Plan, research, write, optimize, and revise blog posts, comparison 
 | Originality | Does the piece add analysis, synthesis, examples, data, or a distinct viewpoint? |
 
 Never promise rankings or fabricate statistics, quotations, reviews, user experience, or product capabilities. Use the research module for evidence and the documentation module for publication-ready formatting.
+
+
+## When not to use this skill
+
+Do not use it to fabricate rankings, reviews, testimonials, first-hand experience, search volume, or product capabilities. Do not replace a scientific, legal, medical, financial, or security workflow when the article depends on specialized evidence or regulated advice.
+
+## Handoff
+
+Report audience and intent, brief, sources and dates, claims requiring verification, article structure, optimization changes, image and alt-text decisions, limitations, and publication checks.

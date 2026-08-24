@@ -32,3 +32,8 @@ Avoid tests that merely reproduce implementation details. Prefer observable beha
 ## Failure report
 
 State the symptom, reproduction, root cause, minimal fix, tests run, result, and residual risk. If the issue cannot be reproduced, say what was inspected and what evidence is still missing instead of presenting a hypothesis as fact.
+
+
+## Reliability rules
+
+Do not delete or weaken tests, suppress errors, add arbitrary waits, hide failures with silent fallbacks, or claim a root cause without evidence. If the failure cannot be reproduced, separate observed facts from hypotheses and identify the missing evidence.

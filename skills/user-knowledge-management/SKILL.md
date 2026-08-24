@@ -45,3 +45,8 @@ Do not infer personal preferences from one isolated request. Do not treat prior 
 ## Knowledge quality check
 
 Before relying on a knowledge item, ask: Is it relevant? Is it authoritative? Is it current? Is its scope clear? Does it conflict with the current request or project? If any answer is uncertain and the item affects the result, verify it or state the uncertainty.
+
+
+## Handoff
+
+Report the knowledge layers and files consulted, relevance and freshness checks, conflicts found, project-isolation decisions, temporary assumptions, durable updates proposed, and which updates require user approval.

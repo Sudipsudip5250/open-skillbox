@@ -27,3 +27,16 @@ description: Produce clear, accurate, audience-appropriate documentation and com
 | Report | Question, method, evidence, findings, limitations, and implications |
 
 Do not document behavior that was not verified. Prefer direct language and concrete examples over vague promises.
+
+
+## Quality and safety rules
+
+Do not document unverified behavior, expose secrets or personal data, silently change operational instructions, or present regulated guidance as professional advice. Mark drafts, assumptions, owners, dates, version requirements, and review status when they affect safe use.
+
+## When not to use this skill
+
+Do not use it as a substitute for domain research, code implementation, security review, legal review, or document remediation when the task requires those specialized methods.
+
+## Handoff
+
+Report the artifact type, audience, source material, assumptions, files changed, verification performed, owner, version or date, known limitations, and next review point.

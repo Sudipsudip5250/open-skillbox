@@ -26,3 +26,12 @@ A feature is done when its intended behavior works in the target environment, fa
 ## Handoff
 
 State what is complete, where it lives, how to run or deploy it, how it was verified, what remains, and which assumptions the next contributor should know.
+
+
+## Quality and safety rules
+
+Do not silently expand scope, skip investigation or verification, expose secrets, or mark work complete without evidence. Escalate missing authorization, blocked dependencies, unresolved risks, and domain-specific professional requirements before irreversible actions.
+
+## When not to use this skill
+
+Do not use it as a substitute for a specialized implementation, research, security, finance, science, education, or deployment workflow. Use this skill to coordinate those workflows, not to replace their methods.
