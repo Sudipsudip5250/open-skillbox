@@ -34,6 +34,8 @@ The project does not redistribute private account Knowledge, user preferences, r
 - [Google Play subscriptions](https://developer.android.com/google/play/billing/subscriptions)
 - [FTC Endorsement Guides](https://www.ftc.gov/business-guidance/resources/ftcs-endorsement-guides-what-people-are-asking)
 
+The defensive-security skills use OWASP ASVS for control expectations, OWASP WSTG for scoped web-testing scenarios, and NIST SSDF for secure-development and supply-chain practices. These are reference frameworks, not permission to test any target; users must provide authorization and scope separately.
+
 ## Version-sensitive guidance
 
 Sources, platform requirements, package APIs, security recommendations, and legal or advertising policies can change. Re-check the authoritative source before relying on a skill for a production, financial, privacy, security, monetization, or platform-policy decision.

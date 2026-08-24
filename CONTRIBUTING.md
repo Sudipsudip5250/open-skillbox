@@ -6,7 +6,7 @@ Thank you for helping improve Agent Skill Kit. Contributions should make an agen
 
 Search [docs/SKILL_INDEX.md](docs/SKILL_INDEX.md), the existing directories, and [docs/TAXONOMY.md](docs/TAXONOMY.md) first. Prefer improving an existing skill when the proposed behavior overlaps substantially. Add a new module only when it has a distinct trigger, audience, method, and handoff. Do not delete or rename large groups of existing skills without maintainer discussion.
 
-For mathematics, science, tutoring, and research modules, explain the problem classification, method selection, worked or actionable procedure, verification, common failure modes, safety boundary, and handoff. A math skill may provide full worked reasoning, but it must not become an answer-only exam-cheating shortcut. A science skill must distinguish educational modeling from real-world professional or laboratory advice and must not fabricate evidence or unsafe procedures.
+For mathematics, science, tutoring, and research modules, explain the problem classification, method selection, worked or actionable procedure, verification, common failure modes, safety boundary, and handoff. A math skill may provide full worked reasoning, but it must not become an answer-only exam-cheating shortcut. A science skill must distinguish educational modeling from real-world professional or laboratory advice and must not fabricate evidence or unsafe procedures. For defensive security modules, read [docs/SECURITY_USAGE.md](docs/SECURITY_USAGE.md) and include an explicit authorization gate, in-scope and out-of-scope assets, environment preference, rate limits, evidence handling, stop conditions, and a Rules-of-Engagement handoff before active testing.
 
 ## Skill requirements
 
@@ -16,7 +16,7 @@ Use authoritative, version-matched sources when behavior, standards, APIs, polic
 
 ## Safety requirements
 
-Security, privacy, payments, monetization, media rights, external actions, and infrastructure skills must state authorization and boundary conditions. Do not add instructions for unauthorized access, credential theft, destructive exploitation, anti-forensics, platform-policy evasion, deceptive monetization, copyright bypass, safeguard circumvention, or prompt-injection bypass. Experimental and physical-system content must remain safe, educational, and subject to appropriate institutional controls and qualified supervision.
+Security, privacy, payments, monetization, media rights, external actions, and infrastructure skills must state authorization and boundary conditions. Defensive security work must prefer find → verify safely → report → fix → retest and must never infer permission from public visibility. Do not add instructions for unauthorized access, credential theft, destructive exploitation, persistence, anti-forensics, platform-policy evasion, deceptive monetization, copyright bypass, safeguard circumvention, jailbreaks, or prompt-injection bypass. Experimental and physical-system content must remain safe, educational, and subject to appropriate institutional controls and qualified supervision.
 
 ## Local validation
 

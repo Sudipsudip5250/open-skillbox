@@ -11,7 +11,7 @@ The repository deliberately uses many small skills rather than one oversized ins
 | Orchestration and context | Task routing, context engineering, project delivery, knowledge boundaries, cost-efficient execution |
 | Software and quality | Software engineering, code review, debugging, testing, migrations, Git, APIs, TypeScript, JavaScript/Node.js |
 | Frontend and experience | React, CSS/Tailwind, responsive design, accessibility, browser testing, UI/UX, motion, visual quality, Three.js, games |
-| Security and trust | Application, web, database, identity, cloud, secrets, AI security, authorized testing, vulnerability detection, provenance |
+| Security and trust | Rules of engagement, attack-surface mapping, access-control and API assessment, findings and retesting, application/web/database/identity/cloud security, secrets, AI-agent permissions, vulnerability detection, provenance |
 | Data and systems | Data analysis, data engineering, machine-learning evaluation, systems design, architecture, networking, operating systems, embedded/IoT |
 | Mathematics | Foundations, algebra, functions, trigonometry, precalculus, limits, differential and integral calculus, multivariable calculus, linear algebra, probability, statistics, discrete math, units, and modeling |
 | Science | Mechanics, electricity and magnetism, waves and optics, thermodynamics, stoichiometry, bonding, cell and molecular biology, genetics, evolution, earth and environmental systems, experimental design, and scientific visualization |
@@ -34,7 +34,7 @@ Skills provide procedures, not private knowledge. Keep project facts, user prefe
 
 This project supports authorized development, education, research, privacy protection, and production readiness. It does not provide instructions for credential theft, unauthorized access, destructive exploitation, persistence, evasion, anti-forensics, watermark removal from third-party media, copyright bypass, invalid advertising traffic, deceptive monetization, prompt-injection bypass, or safeguard circumvention.
 
-Security and infrastructure skills require an explicitly authorized target, defined scope, a safe environment where possible, rate limits, evidence handling, and responsible reporting. Science and education skills are informational and must not be treated as personal medical, legal, financial, or other regulated professional advice. Experimental skills remain at a safe planning and analysis level and do not replace institutional review, laboratory controls, or qualified supervision. Tutoring skills support complete reasoning and learning rather than answer-only exam circumvention.
+Security and infrastructure skills require an explicitly authorized target, defined scope, a safe environment where possible, rate limits, evidence handling, stop conditions, and responsible reporting. Read [docs/SECURITY_USAGE.md](docs/SECURITY_USAGE.md) for a copyable authorization and Rules-of-Engagement statement. Science and education skills are informational and must not be treated as personal medical, legal, financial, or other regulated professional advice. Experimental skills remain at a safe planning and analysis level and do not replace institutional review, laboratory controls, or qualified supervision. Tutoring skills support complete reasoning and learning rather than answer-only exam circumvention.
 
 ## Quality principles
 
