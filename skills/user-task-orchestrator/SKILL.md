@@ -41,13 +41,22 @@ Use this skill as the shared operating layer. Do not load every skill by default
 | Arithmetic, fractions, percentages, ratios, or number sense | Math foundations | Word-problem modeling; units and dimensional analysis |
 | Equations, inequalities, factoring, exponents, functions, graphs, or trigonometry | Relevant mathematics chapter skill | Math modeling; symbolic computation; numerical methods |
 | Limits, derivatives, integrals, sequences, series, or optimization | Relevant calculus/precalculus skill | Math modeling; units; symbolic computation; numerical methods |
+| Differential equation, initial-value problem, ODE, equilibria, or phase portrait | Introductory differential equations | Differential calculus; linear algebra; numerical methods; symbolic computation |
+| Numerical root, approximation, interpolation, quadrature, finite difference, or convergence | Numerical methods | Differential equations; linear algebra; symbolic computation; data analysis |
+| Proof, theorem, induction, contradiction, contrapositive, or counterexample | Mathematical proof techniques | Discrete math; algebra; documentation |
+| Symbolic algebra, CAS, SymPy, exact solve, symbolic integral, or expression manipulation | Mathematical symbolic computation | Relevant math chapter; numerical methods; software engineering |
 | Vectors, matrices, eigenvalues, probability, statistics, logic, graphs, or proofs | Relevant math chapter skill | Data analysis; numerical methods; proof techniques |
 | Physics, chemistry, biology, earth science, environment, or materials | Relevant science chapter skill | Scientific research; units; experimental design; visualization |
 | Lab plan, variables, controls, measurements, error, or reproducibility | Experimental design and lab methods | Units; scientific research; data analysis; safety |
 | Tutoring, teaching, lesson, curriculum, practice problems, or exam preparation | Relevant education skill | Domain skill; humanized writing; accessibility |
+| Personal knowledge base, durable memory, project context, or reusable preferences | Knowledge management | Context engineering; privacy; documentation |
 | Dataset pipeline, ETL, feature engineering, leakage, training, or ML metrics | Data/ML skill | Data analysis; AI evaluation; software engineering; privacy |
 | Computer architecture, networking, operating systems, embedded, or electronics | Relevant technology fundamentals skill | Systems design; security; safety; documentation |
 | Spreadsheet model, formulas, scenario planning, or advanced workbook | Spreadsheet modeling | Data analysis; finance safeguards; documentation |
+| Advanced workbook, scenario model, sensitivity table, financial model, or auditable spreadsheet | Advanced spreadsheet modeling | Data analysis; finance safeguards; documentation |
+| Product discovery, user problem, opportunity hypothesis, or discovery research | Product discovery | Research; analytics; UX; project delivery |
+| Incident, containment, eradication, recovery, incident commander, or response runbook | Incident response runbooks | Authorized security testing; observability; documentation; project delivery |
+| Contract, terms, policy, clause, obligation, jurisdiction, or legal document | Legal-document literacy | Documentation; research; privacy; qualified professional review |
 | Mermaid, flowchart, architecture diagram, or technical visualization | Technical diagramming | Software engineering; documentation; visual review |
 | API integration, webhook, synchronization, scheduled job, or bot | Automation and integrations | API design; security; project delivery |
 | README, specification, proposal, SOP, handoff, or report | Documentation and communication | Research; relevant domain; document remediation |

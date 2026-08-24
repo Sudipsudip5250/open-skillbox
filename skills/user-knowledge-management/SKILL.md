@@ -20,6 +20,16 @@ Treat **skills** as procedures and **knowledge** as context. Skills explain how 
 | Decision memory | Approved choices, rejected alternatives, unresolved questions | Load when continuing or revisiting the decision |
 | Task scratchpad | Temporary assumptions, intermediate findings, next steps | Use only during the active task; do not promote automatically |
 
+## Personal knowledge-base workflow
+
+For a durable personal knowledge base, define the purpose, audience, privacy level, source-of-truth locations, naming and tagging convention, review cadence, and deletion or export path. Separate stable facts, preferences, project context, decisions, references, and temporary notes. Store provenance, date, scope, confidence, and owner where they affect future decisions. Keep private personal information, credentials, and sensitive records out of public repositories; use the host’s protected Knowledge or local storage instead.
+
+1. Capture only reusable information, not every conversation or transient thought.
+2. Normalize duplicates and contradictions deliberately; preserve the source and record which item is authoritative.
+3. Retrieve by task relevance and scope, then check freshness before relying on the result.
+4. Review stale, unused, sensitive, or conflicting items on a defined cadence and remove or archive them safely.
+5. Test retrieval with representative queries and verify that project or personal context does not leak across users or projects.
+
 ## Retrieval workflow
 
 1. Identify the task domain, project, and required decision.

@@ -36,6 +36,11 @@ The project does not redistribute private account Knowledge, user preferences, r
 
 The defensive-security skills use OWASP ASVS for control expectations, OWASP WSTG for scoped web-testing scenarios, and NIST SSDF for secure-development and supply-chain practices. These are reference frameworks, not permission to test any target; users must provide authorization and scope separately.
 
+- [MIT OpenCourseWare Differential Equations](https://ocw.mit.edu/courses/18-03sc-differential-equations-fall-2011/) — open course structure for modeling, solving, and interpreting differential equations.
+- [MIT OpenCourseWare Numerical Methods for Partial Differential Equations](https://ocw.mit.edu/courses/18-336-numerical-methods-for-partial-differential-equations-spring-2009/) — numerical-simulation concepts, methods, and stability-oriented study material.
+- [SymPy ODE Documentation](https://docs.sympy.org/latest/modules/solvers/ode.html) — versioned documentation for classifying, solving, and checking supported ordinary differential equations.
+- [NIST SP 800-61 Rev. 3](https://csrc.nist.gov/pubs/sp/800/61/r3/final) — current official incident-response recommendations and considerations for cybersecurity risk management.
+
 ## Version-sensitive guidance
 
 Sources, platform requirements, package APIs, security recommendations, and legal or advertising policies can change. Re-check the authoritative source before relying on a skill for a production, financial, privacy, security, monetization, or platform-policy decision.

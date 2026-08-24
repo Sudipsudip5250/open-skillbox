@@ -11,10 +11,10 @@ CATEGORIES = [
     ('Frontend, design, accessibility, and media', ['frontend', 'react', 'typescript', 'javascript-node', 'ui-ux', 'responsive', 'accessibility', 'browser-testing', 'visual', 'motion', 'threejs', 'media', 'watermark', 'mobile-app']),
     ('Security, privacy, identity, and trust', ['security', 'privacy', 'identity', 'threat', 'vulnerability', 'authorized-security', 'attack-surface', 'access-control', 'remediation-verification', 'agent-tool-permission', 'rules-of-engagement', 'prompt-injection', 'secrets', 'database-security', 'provenance']),
     ('Data, machine learning, analytics, and finance', ['data-analysis', 'data-engineering', 'ml-', 'ai-evaluation', 'growth-analytics', 'finance', 'finops', 'token-cost']),
-    ('DevOps, cloud, reliability, and automation', ['docker', 'infrastructure', 'ci-cd', 'observability', 'performance', 'automation']),
+    ('DevOps, cloud, reliability, and automation', ['docker', 'infrastructure', 'ci-cd', 'observability', 'performance', 'automation', 'incident-response', 'runbooks']),
     ('Technology foundations and systems', ['systems-design', 'computer-architecture', 'networking', 'operating-systems', 'embedded', 'electronics', 'technical-diagramming']),
     ('Research, science, and evidence', ['research', 'scientific', 'physics', 'chemistry', 'biology', 'earth', 'experimental', 'units', 'visualization-plotting', 'literature-review', 'citation']),
-    ('Mathematics', ['math-', 'algebra', 'functions', 'polynomials', 'exponents', 'trigonometry', 'precalculus', 'limits', 'calculus', 'linear-algebra', 'probability', 'statistics', 'discrete', 'numerical', 'proof', 'word-problems', 'symbolic']),
+    ('Mathematics', ['math-', 'algebra', 'functions', 'polynomials', 'exponents', 'trigonometry', 'precalculus', 'limits', 'calculus', 'differential-equations', 'linear-algebra', 'probability', 'statistics', 'discrete', 'numerical', 'proof', 'word-problems', 'symbolic']),
     ('Education and tutoring', ['tutoring', 'curriculum', 'lesson', 'exam-prep']),
     ('Business, product, monetization, and communication', ['monetization', 'payments', 'product', 'writing', 'blog', 'documentation', 'document', 'citation', 'spreadsheet']),
 ]
