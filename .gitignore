@@ -1,0 +1,26 @@
+# Local and editor files
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# Python caches and environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+
+# Generated or private artifacts
+*.zip
+terminal_full_output/
+private/
+account-knowledge-*.md
+*research-notes*.md
