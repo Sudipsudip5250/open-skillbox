@@ -1,33 +1,39 @@
 # Contributing to Agent Skill Kit
 
-Thank you for helping improve Agent Skill Kit. Contributions should make an agent more reliable, more efficient, safer, or better at a clearly defined task.
+Thank you for helping improve Agent Skill Kit. Contributions should make an agent more reliable, more efficient, safer, or better at a clearly defined recurring task. The project favors **small, composable, public-safe skills** over a single broad instruction file.
 
 ## Before proposing a skill
 
-Search the [skill index](docs/SKILL_INDEX.md) and existing directories first. Prefer improving an existing skill when the proposed behavior overlaps substantially. A new skill should have a distinct task boundary, clear automatic trigger language, and a reason it should not be merged into a broader module.
+Search [docs/SKILL_INDEX.md](docs/SKILL_INDEX.md), the existing directories, and [docs/TAXONOMY.md](docs/TAXONOMY.md) first. Prefer improving an existing skill when the proposed behavior overlaps substantially. Add a new module only when it has a distinct trigger, audience, method, and handoff. Do not delete or rename large groups of existing skills without maintainer discussion.
+
+For mathematics, science, tutoring, and research modules, explain the problem classification, method selection, worked or actionable procedure, verification, common failure modes, safety boundary, and handoff. A math skill may provide full worked reasoning, but it must not become an answer-only exam-cheating shortcut. A science skill must distinguish educational modeling from real-world professional or laboratory advice and must not fabricate evidence or unsafe procedures.
 
 ## Skill requirements
 
-Every skill must be a directory containing a `SKILL.md` with YAML frontmatter containing `name` and `description`. The description should state what the skill does and when it should activate. The body should explain scope, workflow, verification, assumptions, safety boundaries, and handoff expectations.
+Every skill must be a directory named `user-<kebab-case>` containing `SKILL.md` with YAML frontmatter for `name` and a trigger-oriented `description`. The body should state scope, workflow, verification, assumptions, safety or non-goals, composition or handoff, and the expected deliverable. Keep it concise and progressive; do not copy a textbook, framework manual, proprietary prompt, answer key, or full vendor documentation.
 
-Keep skills concise and progressive. Do not duplicate complete framework documentation, include secrets, encode user-specific private information, or claim that a version-sensitive recommendation is timeless. Link to authoritative sources when current behavior or policy matters.
+Use authoritative, version-matched sources when behavior, standards, APIs, policies, scientific claims, or educational frameworks can change. Record useful public references in [SOURCES.md](SOURCES.md) and explain how they informed the workflow. Do not include credentials, account-level Knowledge, personal preferences, private research, project-specific secrets, or hardcoded private paths.
 
 ## Safety requirements
 
-Security, privacy, payments, monetization, media rights, and external-action skills must state authorization and boundary conditions. Do not add instructions for unauthorized access, credential theft, destructive exploitation, anti-forensics, platform-policy evasion, deceptive monetization, copyright bypass, or safeguard circumvention.
+Security, privacy, payments, monetization, media rights, external actions, and infrastructure skills must state authorization and boundary conditions. Do not add instructions for unauthorized access, credential theft, destructive exploitation, anti-forensics, platform-policy evasion, deceptive monetization, copyright bypass, safeguard circumvention, or prompt-injection bypass. Experimental and physical-system content must remain safe, educational, and subject to appropriate institutional controls and qualified supervision.
+
+## Local validation
+
+From the repository root, regenerate the public catalog and run the validator:
+
+```bash
+python scripts/generate_skill_index.py
+python scripts/validate_skills.py
+git diff --check
+```
+
+If a skill was added, removed, or renamed, include the regenerated `docs/SKILL_INDEX.md`. CI also regenerates the index and fails if the checked-in result is stale. Review the diff for broken links, copied or private content, vague triggers, duplicated scope, unsafe instructions, and accidental changes outside the focused contribution.
 
 ## Pull requests
 
-Use a focused branch and a focused pull request. Explain the problem, affected skills, trigger changes, overlap analysis, evidence or sources, verification performed, safety implications, and migration or rollback considerations. Keep unrelated formatting or wording changes out of the pull request.
-
-Run the repository validation command before submitting:
-
-```bash
-python scripts/validate_skills.py
-```
-
-Review the generated index when adding, removing, or renaming a skill. Check that links work, frontmatter is valid, and no private or project-specific content was included.
+Use a focused branch and a focused pull request. Explain the problem, affected skills, trigger changes, overlap analysis, sources, validation performed, safety implications, and migration or rollback considerations. For domain skills, include at least one representative input or scenario and the expected verification behavior. Keep unrelated formatting or wording changes out of the pull request.
 
 ## Review standard
 
-A contribution is ready when it is useful without hidden context, does not create ambiguous automatic triggers, is compatible with the repository’s license, includes evidence for time-sensitive claims, handles failure and verification, and respects the safety policy. Maintainers may request a narrower scope or merge a proposal into an existing skill.
+A contribution is ready when it is useful without hidden context, has a narrow and discoverable trigger, composes cleanly with the orchestrator and neighboring skills, handles failure and verification, respects the safety policy, and is grounded in public evidence where appropriate. Maintainers may request a narrower scope, a clearer handoff, or an improvement to an existing module instead of accepting a new one.
