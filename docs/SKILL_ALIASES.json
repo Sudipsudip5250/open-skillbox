@@ -1,0 +1,777 @@
+{
+  "access-control-testing-authorized": {
+    "directory": "user-access-control-testing-authorized",
+    "legacy_name": "user-access-control-testing-authorized",
+    "path": "skills/user-access-control-testing-authorized/SKILL.md"
+  },
+  "accessibility-audit": {
+    "directory": "user-accessibility-audit",
+    "legacy_name": "user-accessibility-audit",
+    "path": "skills/user-accessibility-audit/SKILL.md"
+  },
+  "ad-monetization": {
+    "directory": "user-ad-monetization",
+    "legacy_name": "user-ad-monetization",
+    "path": "skills/user-ad-monetization/SKILL.md"
+  },
+  "advanced-spreadsheet-modeling": {
+    "directory": "user-advanced-spreadsheet-modeling",
+    "legacy_name": "user-advanced-spreadsheet-modeling",
+    "path": "skills/user-advanced-spreadsheet-modeling/SKILL.md"
+  },
+  "agent-eval-harness-light": {
+    "directory": "user-agent-eval-harness-light",
+    "legacy_name": "user-agent-eval-harness-light",
+    "path": "skills/user-agent-eval-harness-light/SKILL.md"
+  },
+  "ai-agent-tool-permission-review": {
+    "directory": "user-ai-agent-tool-permission-review",
+    "legacy_name": "user-ai-agent-tool-permission-review",
+    "path": "skills/user-ai-agent-tool-permission-review/SKILL.md"
+  },
+  "ai-application-security": {
+    "directory": "user-ai-application-security",
+    "legacy_name": "user-ai-application-security",
+    "path": "skills/user-ai-application-security/SKILL.md"
+  },
+  "ai-evaluation": {
+    "directory": "user-ai-evaluation",
+    "legacy_name": "user-ai-evaluation",
+    "path": "skills/user-ai-evaluation/SKILL.md"
+  },
+  "algebra-equations": {
+    "directory": "user-algebra-equations",
+    "legacy_name": "user-algebra-equations",
+    "path": "skills/user-algebra-equations/SKILL.md"
+  },
+  "api-interface-design": {
+    "directory": "user-api-interface-design",
+    "legacy_name": "user-api-interface-design",
+    "path": "skills/user-api-interface-design/SKILL.md"
+  },
+  "api-rate-limit-resilience-design": {
+    "directory": "user-api-rate-limit-resilience-design",
+    "legacy_name": "user-api-rate-limit-resilience-design",
+    "path": "skills/user-api-rate-limit-resilience-design/SKILL.md"
+  },
+  "api-security-assessment-authorized": {
+    "directory": "user-api-security-assessment-authorized",
+    "legacy_name": "user-api-security-assessment-authorized",
+    "path": "skills/user-api-security-assessment-authorized/SKILL.md"
+  },
+  "attack-surface-mapping-authorized": {
+    "directory": "user-attack-surface-mapping-authorized",
+    "legacy_name": "user-attack-surface-mapping-authorized",
+    "path": "skills/user-attack-surface-mapping-authorized/SKILL.md"
+  },
+  "authorized-security-testing": {
+    "directory": "user-authorized-security-testing",
+    "legacy_name": "user-authorized-security-testing",
+    "path": "skills/user-authorized-security-testing/SKILL.md"
+  },
+  "automation-integrations": {
+    "directory": "user-automation-integrations",
+    "legacy_name": "user-automation-integrations",
+    "path": "skills/user-automation-integrations/SKILL.md"
+  },
+  "backup-restore-drill": {
+    "directory": "user-backup-restore-drill",
+    "legacy_name": "user-backup-restore-drill",
+    "path": "skills/user-backup-restore-drill/SKILL.md"
+  },
+  "biology-cell-molecular": {
+    "directory": "user-biology-cell-molecular",
+    "legacy_name": "user-biology-cell-molecular",
+    "path": "skills/user-biology-cell-molecular/SKILL.md"
+  },
+  "biology-genetics-evolution": {
+    "directory": "user-biology-genetics-evolution",
+    "legacy_name": "user-biology-genetics-evolution",
+    "path": "skills/user-biology-genetics-evolution/SKILL.md"
+  },
+  "blog-seo-writing": {
+    "directory": "user-blog-seo-writing",
+    "legacy_name": "user-blog-seo-writing",
+    "path": "skills/user-blog-seo-writing/SKILL.md"
+  },
+  "brainstorming-specification": {
+    "directory": "user-brainstorming-specification",
+    "legacy_name": "user-brainstorming-specification",
+    "path": "skills/user-brainstorming-specification/SKILL.md"
+  },
+  "brand-style-guide-application": {
+    "directory": "user-brand-style-guide-application",
+    "legacy_name": "user-brand-style-guide-application",
+    "path": "skills/user-brand-style-guide-application/SKILL.md"
+  },
+  "browser-testing": {
+    "directory": "user-browser-testing",
+    "legacy_name": "user-browser-testing",
+    "path": "skills/user-browser-testing/SKILL.md"
+  },
+  "capacity-planning-basics": {
+    "directory": "user-capacity-planning-basics",
+    "legacy_name": "user-capacity-planning-basics",
+    "path": "skills/user-capacity-planning-basics/SKILL.md"
+  },
+  "changelog-release-notes": {
+    "directory": "user-changelog-release-notes",
+    "legacy_name": "user-changelog-release-notes",
+    "path": "skills/user-changelog-release-notes/SKILL.md"
+  },
+  "chemistry-stoichiometry": {
+    "directory": "user-chemistry-stoichiometry",
+    "legacy_name": "user-chemistry-stoichiometry",
+    "path": "skills/user-chemistry-stoichiometry/SKILL.md"
+  },
+  "chemistry-structure-bonding": {
+    "directory": "user-chemistry-structure-bonding",
+    "legacy_name": "user-chemistry-structure-bonding",
+    "path": "skills/user-chemistry-structure-bonding/SKILL.md"
+  },
+  "ci-cd-shipping": {
+    "directory": "user-ci-cd-shipping",
+    "legacy_name": "user-ci-cd-shipping",
+    "path": "skills/user-ci-cd-shipping/SKILL.md"
+  },
+  "citation-reference-management": {
+    "directory": "user-citation-reference-management",
+    "legacy_name": "user-citation-reference-management",
+    "path": "skills/user-citation-reference-management/SKILL.md"
+  },
+  "code-review-quality": {
+    "directory": "user-code-review-quality",
+    "legacy_name": "user-code-review-quality",
+    "path": "skills/user-code-review-quality/SKILL.md"
+  },
+  "code-simplification": {
+    "directory": "user-code-simplification",
+    "legacy_name": "user-code-simplification",
+    "path": "skills/user-code-simplification/SKILL.md"
+  },
+  "codebase-modernization": {
+    "directory": "user-codebase-modernization",
+    "legacy_name": "user-codebase-modernization",
+    "path": "skills/user-codebase-modernization/SKILL.md"
+  },
+  "computer-architecture": {
+    "directory": "user-computer-architecture",
+    "legacy_name": "user-computer-architecture",
+    "path": "skills/user-computer-architecture/SKILL.md"
+  },
+  "concept-map-explainer": {
+    "directory": "user-concept-map-explainer",
+    "legacy_name": "user-concept-map-explainer",
+    "path": "skills/user-concept-map-explainer/SKILL.md"
+  },
+  "context-engineering": {
+    "directory": "user-context-engineering",
+    "legacy_name": "user-context-engineering",
+    "path": "skills/user-context-engineering/SKILL.md"
+  },
+  "cost-efficient-execution": {
+    "directory": "user-cost-efficient-execution",
+    "legacy_name": "user-cost-efficient-execution",
+    "path": "skills/user-cost-efficient-execution/SKILL.md"
+  },
+  "curriculum-lesson-planning": {
+    "directory": "user-curriculum-lesson-planning",
+    "legacy_name": "user-curriculum-lesson-planning",
+    "path": "skills/user-curriculum-lesson-planning/SKILL.md"
+  },
+  "customer-support-playbooks": {
+    "directory": "user-customer-support-playbooks",
+    "legacy_name": "user-customer-support-playbooks",
+    "path": "skills/user-customer-support-playbooks/SKILL.md"
+  },
+  "dashboard-metrics-definition": {
+    "directory": "user-dashboard-metrics-definition",
+    "legacy_name": "user-dashboard-metrics-definition",
+    "path": "skills/user-dashboard-metrics-definition/SKILL.md"
+  },
+  "data-analysis-reporting": {
+    "directory": "user-data-analysis-reporting",
+    "legacy_name": "user-data-analysis-reporting",
+    "path": "skills/user-data-analysis-reporting/SKILL.md"
+  },
+  "data-engineering-pipelines": {
+    "directory": "user-data-engineering-pipelines",
+    "legacy_name": "user-data-engineering-pipelines",
+    "path": "skills/user-data-engineering-pipelines/SKILL.md"
+  },
+  "data-quality-validation": {
+    "directory": "user-data-quality-validation",
+    "legacy_name": "user-data-quality-validation",
+    "path": "skills/user-data-quality-validation/SKILL.md"
+  },
+  "database-security": {
+    "directory": "user-database-security",
+    "legacy_name": "user-database-security",
+    "path": "skills/user-database-security/SKILL.md"
+  },
+  "debugging-testing": {
+    "directory": "user-debugging-testing",
+    "legacy_name": "user-debugging-testing",
+    "path": "skills/user-debugging-testing/SKILL.md"
+  },
+  "dependency-migration": {
+    "directory": "user-dependency-migration",
+    "legacy_name": "user-dependency-migration",
+    "path": "skills/user-dependency-migration/SKILL.md"
+  },
+  "differential-calculus": {
+    "directory": "user-differential-calculus",
+    "legacy_name": "user-differential-calculus",
+    "path": "skills/user-differential-calculus/SKILL.md"
+  },
+  "differential-equations-intro": {
+    "directory": "user-differential-equations-intro",
+    "legacy_name": "user-differential-equations-intro",
+    "path": "skills/user-differential-equations-intro/SKILL.md"
+  },
+  "discrete-math": {
+    "directory": "user-discrete-math",
+    "legacy_name": "user-discrete-math",
+    "path": "skills/user-discrete-math/SKILL.md"
+  },
+  "docker-development": {
+    "directory": "user-docker-development",
+    "legacy_name": "user-docker-development",
+    "path": "skills/user-docker-development/SKILL.md"
+  },
+  "document-remediation": {
+    "directory": "user-document-remediation",
+    "legacy_name": "user-document-remediation",
+    "path": "skills/user-document-remediation/SKILL.md"
+  },
+  "documentation-communication": {
+    "directory": "user-documentation-communication",
+    "legacy_name": "user-documentation-communication",
+    "path": "skills/user-documentation-communication/SKILL.md"
+  },
+  "earth-environmental-systems": {
+    "directory": "user-earth-environmental-systems",
+    "legacy_name": "user-earth-environmental-systems",
+    "path": "skills/user-earth-environmental-systems/SKILL.md"
+  },
+  "electronics-circuit-concepts": {
+    "directory": "user-electronics-circuit-concepts",
+    "legacy_name": "user-electronics-circuit-concepts",
+    "path": "skills/user-electronics-circuit-concepts/SKILL.md"
+  },
+  "embedded-firmware-process": {
+    "directory": "user-embedded-firmware-process",
+    "legacy_name": "user-embedded-firmware-process",
+    "path": "skills/user-embedded-firmware-process/SKILL.md"
+  },
+  "embedded-iot-systems": {
+    "directory": "user-embedded-iot-systems",
+    "legacy_name": "user-embedded-iot-systems",
+    "path": "skills/user-embedded-iot-systems/SKILL.md"
+  },
+  "exam-prep-practice-problems": {
+    "directory": "user-exam-prep-practice-problems",
+    "legacy_name": "user-exam-prep-practice-problems",
+    "path": "skills/user-exam-prep-practice-problems/SKILL.md"
+  },
+  "experiment-ab-test-analysis": {
+    "directory": "user-experiment-ab-test-analysis",
+    "legacy_name": "user-experiment-ab-test-analysis",
+    "path": "skills/user-experiment-ab-test-analysis/SKILL.md"
+  },
+  "experimental-design-lab-methods": {
+    "directory": "user-experimental-design-lab-methods",
+    "legacy_name": "user-experimental-design-lab-methods",
+    "path": "skills/user-experimental-design-lab-methods/SKILL.md"
+  },
+  "exponents-logarithms": {
+    "directory": "user-exponents-logarithms",
+    "legacy_name": "user-exponents-logarithms",
+    "path": "skills/user-exponents-logarithms/SKILL.md"
+  },
+  "feature-flag-rollout-strategy": {
+    "directory": "user-feature-flag-rollout-strategy",
+    "legacy_name": "user-feature-flag-rollout-strategy",
+    "path": "skills/user-feature-flag-rollout-strategy/SKILL.md"
+  },
+  "finops-cost-optimization": {
+    "directory": "user-finops-cost-optimization",
+    "legacy_name": "user-finops-cost-optimization",
+    "path": "skills/user-finops-cost-optimization/SKILL.md"
+  },
+  "frontend-styling": {
+    "directory": "user-frontend-styling",
+    "legacy_name": "user-frontend-styling",
+    "path": "skills/user-frontend-styling/SKILL.md"
+  },
+  "functions-graphs": {
+    "directory": "user-functions-graphs",
+    "legacy_name": "user-functions-graphs",
+    "path": "skills/user-functions-graphs/SKILL.md"
+  },
+  "git-workflow": {
+    "directory": "user-git-workflow",
+    "legacy_name": "user-git-workflow",
+    "path": "skills/user-git-workflow/SKILL.md"
+  },
+  "growth-analytics-experimentation": {
+    "directory": "user-growth-analytics-experimentation",
+    "legacy_name": "user-growth-analytics-experimentation",
+    "path": "skills/user-growth-analytics-experimentation/SKILL.md"
+  },
+  "health-information-literacy": {
+    "directory": "user-health-information-literacy",
+    "legacy_name": "user-health-information-literacy",
+    "path": "skills/user-health-information-literacy/SKILL.md"
+  },
+  "humanized-writing": {
+    "directory": "user-humanized-writing",
+    "legacy_name": "user-humanized-writing",
+    "path": "skills/user-humanized-writing/SKILL.md"
+  },
+  "identity-access-security": {
+    "directory": "user-identity-access-security",
+    "legacy_name": "user-identity-access-security",
+    "path": "skills/user-identity-access-security/SKILL.md"
+  },
+  "image-prompt-engineering": {
+    "directory": "user-image-prompt-engineering",
+    "legacy_name": "user-image-prompt-engineering",
+    "path": "skills/user-image-prompt-engineering/SKILL.md"
+  },
+  "incident-postmortem": {
+    "directory": "user-incident-postmortem",
+    "legacy_name": "user-incident-postmortem",
+    "path": "skills/user-incident-postmortem/SKILL.md"
+  },
+  "incident-response-runbooks": {
+    "directory": "user-incident-response-runbooks",
+    "legacy_name": "user-incident-response-runbooks",
+    "path": "skills/user-incident-response-runbooks/SKILL.md"
+  },
+  "infrastructure-cloud-security": {
+    "directory": "user-infrastructure-cloud-security",
+    "legacy_name": "user-infrastructure-cloud-security",
+    "path": "skills/user-infrastructure-cloud-security/SKILL.md"
+  },
+  "integral-calculus": {
+    "directory": "user-integral-calculus",
+    "legacy_name": "user-integral-calculus",
+    "path": "skills/user-integral-calculus/SKILL.md"
+  },
+  "iot-architecture-overview": {
+    "directory": "user-iot-architecture-overview",
+    "legacy_name": "user-iot-architecture-overview",
+    "path": "skills/user-iot-architecture-overview/SKILL.md"
+  },
+  "javascript-node-development": {
+    "directory": "user-javascript-node-development",
+    "legacy_name": "user-javascript-node-development",
+    "path": "skills/user-javascript-node-development/SKILL.md"
+  },
+  "knowledge-management": {
+    "directory": "user-knowledge-management",
+    "legacy_name": "user-knowledge-management",
+    "path": "skills/user-knowledge-management/SKILL.md"
+  },
+  "legal-document-literacy": {
+    "directory": "user-legal-document-literacy",
+    "legacy_name": "user-legal-document-literacy",
+    "path": "skills/user-legal-document-literacy/SKILL.md"
+  },
+  "limits-continuity": {
+    "directory": "user-limits-continuity",
+    "legacy_name": "user-limits-continuity",
+    "path": "skills/user-limits-continuity/SKILL.md"
+  },
+  "linear-algebra": {
+    "directory": "user-linear-algebra",
+    "legacy_name": "user-linear-algebra",
+    "path": "skills/user-linear-algebra/SKILL.md"
+  },
+  "literature-review-systematic": {
+    "directory": "user-literature-review-systematic",
+    "legacy_name": "user-literature-review-systematic",
+    "path": "skills/user-literature-review-systematic/SKILL.md"
+  },
+  "math-foundations": {
+    "directory": "user-math-foundations",
+    "legacy_name": "user-math-foundations",
+    "path": "skills/user-math-foundations/SKILL.md"
+  },
+  "math-proof-techniques": {
+    "directory": "user-math-proof-techniques",
+    "legacy_name": "user-math-proof-techniques",
+    "path": "skills/user-math-proof-techniques/SKILL.md"
+  },
+  "math-symbolic-computation": {
+    "directory": "user-math-symbolic-computation",
+    "legacy_name": "user-math-symbolic-computation",
+    "path": "skills/user-math-symbolic-computation/SKILL.md"
+  },
+  "math-word-problems-modeling": {
+    "directory": "user-math-word-problems-modeling",
+    "legacy_name": "user-math-word-problems-modeling",
+    "path": "skills/user-math-word-problems-modeling/SKILL.md"
+  },
+  "media-provenance-privacy": {
+    "directory": "user-media-provenance-privacy",
+    "legacy_name": "user-media-provenance-privacy",
+    "path": "skills/user-media-provenance-privacy/SKILL.md"
+  },
+  "meeting-notes-decision-log": {
+    "directory": "user-meeting-notes-decision-log",
+    "legacy_name": "user-meeting-notes-decision-log",
+    "path": "skills/user-meeting-notes-decision-log/SKILL.md"
+  },
+  "ml-training-evaluation": {
+    "directory": "user-ml-training-evaluation",
+    "legacy_name": "user-ml-training-evaluation",
+    "path": "skills/user-ml-training-evaluation/SKILL.md"
+  },
+  "mobile-app-development": {
+    "directory": "user-mobile-app-development",
+    "legacy_name": "user-mobile-app-development",
+    "path": "skills/user-mobile-app-development/SKILL.md"
+  },
+  "monetization-revenue-strategy": {
+    "directory": "user-monetization-revenue-strategy",
+    "legacy_name": "user-monetization-revenue-strategy",
+    "path": "skills/user-monetization-revenue-strategy/SKILL.md"
+  },
+  "motion-interaction-design": {
+    "directory": "user-motion-interaction-design",
+    "legacy_name": "user-motion-interaction-design",
+    "path": "skills/user-motion-interaction-design/SKILL.md"
+  },
+  "multilingual-localization-review": {
+    "directory": "user-multilingual-localization-review",
+    "legacy_name": "user-multilingual-localization-review",
+    "path": "skills/user-multilingual-localization-review/SKILL.md"
+  },
+  "multivariable-calculus": {
+    "directory": "user-multivariable-calculus",
+    "legacy_name": "user-multivariable-calculus",
+    "path": "skills/user-multivariable-calculus/SKILL.md"
+  },
+  "networking-fundamentals": {
+    "directory": "user-networking-fundamentals",
+    "legacy_name": "user-networking-fundamentals",
+    "path": "skills/user-networking-fundamentals/SKILL.md"
+  },
+  "numerical-methods": {
+    "directory": "user-numerical-methods",
+    "legacy_name": "user-numerical-methods",
+    "path": "skills/user-numerical-methods/SKILL.md"
+  },
+  "observability": {
+    "directory": "user-observability",
+    "legacy_name": "user-observability",
+    "path": "skills/user-observability/SKILL.md"
+  },
+  "operating-systems-concepts": {
+    "directory": "user-operating-systems-concepts",
+    "legacy_name": "user-operating-systems-concepts",
+    "path": "skills/user-operating-systems-concepts/SKILL.md"
+  },
+  "payments-subscriptions": {
+    "directory": "user-payments-subscriptions",
+    "legacy_name": "user-payments-subscriptions",
+    "path": "skills/user-payments-subscriptions/SKILL.md"
+  },
+  "performance-optimization": {
+    "directory": "user-performance-optimization",
+    "legacy_name": "user-performance-optimization",
+    "path": "skills/user-performance-optimization/SKILL.md"
+  },
+  "personal-finance-concepts": {
+    "directory": "user-personal-finance-concepts",
+    "legacy_name": "user-personal-finance-concepts",
+    "path": "skills/user-personal-finance-concepts/SKILL.md"
+  },
+  "physics-electricity-magnetism": {
+    "directory": "user-physics-electricity-magnetism",
+    "legacy_name": "user-physics-electricity-magnetism",
+    "path": "skills/user-physics-electricity-magnetism/SKILL.md"
+  },
+  "physics-mechanics": {
+    "directory": "user-physics-mechanics",
+    "legacy_name": "user-physics-mechanics",
+    "path": "skills/user-physics-mechanics/SKILL.md"
+  },
+  "physics-thermodynamics": {
+    "directory": "user-physics-thermodynamics",
+    "legacy_name": "user-physics-thermodynamics",
+    "path": "skills/user-physics-thermodynamics/SKILL.md"
+  },
+  "physics-waves-optics": {
+    "directory": "user-physics-waves-optics",
+    "legacy_name": "user-physics-waves-optics",
+    "path": "skills/user-physics-waves-optics/SKILL.md"
+  },
+  "podcast-show-notes-transcript-cleanup": {
+    "directory": "user-podcast-show-notes-transcript-cleanup",
+    "legacy_name": "user-podcast-show-notes-transcript-cleanup",
+    "path": "skills/user-podcast-show-notes-transcript-cleanup/SKILL.md"
+  },
+  "polynomials-factoring": {
+    "directory": "user-polynomials-factoring",
+    "legacy_name": "user-polynomials-factoring",
+    "path": "skills/user-polynomials-factoring/SKILL.md"
+  },
+  "prd-spec-writing": {
+    "directory": "user-prd-spec-writing",
+    "legacy_name": "user-prd-spec-writing",
+    "path": "skills/user-prd-spec-writing/SKILL.md"
+  },
+  "precalculus-sequences-series": {
+    "directory": "user-precalculus-sequences-series",
+    "legacy_name": "user-precalculus-sequences-series",
+    "path": "skills/user-precalculus-sequences-series/SKILL.md"
+  },
+  "privacy-data-protection": {
+    "directory": "user-privacy-data-protection",
+    "legacy_name": "user-privacy-data-protection",
+    "path": "skills/user-privacy-data-protection/SKILL.md"
+  },
+  "privacy-policy-structure-literacy": {
+    "directory": "user-privacy-policy-structure-literacy",
+    "legacy_name": "user-privacy-policy-structure-literacy",
+    "path": "skills/user-privacy-policy-structure-literacy/SKILL.md"
+  },
+  "probability-foundations": {
+    "directory": "user-probability-foundations",
+    "legacy_name": "user-probability-foundations",
+    "path": "skills/user-probability-foundations/SKILL.md"
+  },
+  "product-discovery": {
+    "directory": "user-product-discovery",
+    "legacy_name": "user-product-discovery",
+    "path": "skills/user-product-discovery/SKILL.md"
+  },
+  "project-delivery": {
+    "directory": "user-project-delivery",
+    "legacy_name": "user-project-delivery",
+    "path": "skills/user-project-delivery/SKILL.md"
+  },
+  "prompt-injection-defense": {
+    "directory": "user-prompt-injection-defense",
+    "legacy_name": "user-prompt-injection-defense",
+    "path": "skills/user-prompt-injection-defense/SKILL.md"
+  },
+  "react-development": {
+    "directory": "user-react-development",
+    "legacy_name": "user-react-development",
+    "path": "skills/user-react-development/SKILL.md"
+  },
+  "remediation-verification-retest": {
+    "directory": "user-remediation-verification-retest",
+    "legacy_name": "user-remediation-verification-retest",
+    "path": "skills/user-remediation-verification-retest/SKILL.md"
+  },
+  "research-fact-checking": {
+    "directory": "user-research-fact-checking",
+    "legacy_name": "user-research-fact-checking",
+    "path": "skills/user-research-fact-checking/SKILL.md"
+  },
+  "responsive-design": {
+    "directory": "user-responsive-design",
+    "legacy_name": "user-responsive-design",
+    "path": "skills/user-responsive-design/SKILL.md"
+  },
+  "rfc-design-doc": {
+    "directory": "user-rfc-design-doc",
+    "legacy_name": "user-rfc-design-doc",
+    "path": "skills/user-rfc-design-doc/SKILL.md"
+  },
+  "roadmap-prioritization": {
+    "directory": "user-roadmap-prioritization",
+    "legacy_name": "user-roadmap-prioritization",
+    "path": "skills/user-roadmap-prioritization/SKILL.md"
+  },
+  "rules-of-engagement-security": {
+    "directory": "user-rules-of-engagement-security",
+    "legacy_name": "user-rules-of-engagement-security",
+    "path": "skills/user-rules-of-engagement-security/SKILL.md"
+  },
+  "scientific-research": {
+    "directory": "user-scientific-research",
+    "legacy_name": "user-scientific-research",
+    "path": "skills/user-scientific-research/SKILL.md"
+  },
+  "scientific-visualization": {
+    "directory": "user-scientific-visualization",
+    "legacy_name": "user-scientific-visualization",
+    "path": "skills/user-scientific-visualization/SKILL.md"
+  },
+  "secrets-supply-chain-security": {
+    "directory": "user-secrets-supply-chain-security",
+    "legacy_name": "user-secrets-supply-chain-security",
+    "path": "skills/user-secrets-supply-chain-security/SKILL.md"
+  },
+  "security-findings-report": {
+    "directory": "user-security-findings-report",
+    "legacy_name": "user-security-findings-report",
+    "path": "skills/user-security-findings-report/SKILL.md"
+  },
+  "security-hardening": {
+    "directory": "user-security-hardening",
+    "legacy_name": "user-security-hardening",
+    "path": "skills/user-security-hardening/SKILL.md"
+  },
+  "security-risk-review": {
+    "directory": "user-security-risk-review",
+    "legacy_name": "user-security-risk-review",
+    "path": "skills/user-security-risk-review/SKILL.md"
+  },
+  "skill-authoring": {
+    "directory": "user-skill-authoring",
+    "legacy_name": "user-skill-authoring",
+    "path": "skills/user-skill-authoring/SKILL.md"
+  },
+  "skill-composition-workflows": {
+    "directory": "user-skill-composition-workflows",
+    "legacy_name": "user-skill-composition-workflows",
+    "path": "skills/user-skill-composition-workflows/SKILL.md"
+  },
+  "skill-quality-review": {
+    "directory": "user-skill-quality-review",
+    "legacy_name": "user-skill-quality-review",
+    "path": "skills/user-skill-quality-review/SKILL.md"
+  },
+  "slide-deck-structure": {
+    "directory": "user-slide-deck-structure",
+    "legacy_name": "user-slide-deck-structure",
+    "path": "skills/user-slide-deck-structure/SKILL.md"
+  },
+  "software-engineering": {
+    "directory": "user-software-engineering",
+    "legacy_name": "user-software-engineering",
+    "path": "skills/user-software-engineering/SKILL.md"
+  },
+  "source-driven-development": {
+    "directory": "user-source-driven-development",
+    "legacy_name": "user-source-driven-development",
+    "path": "skills/user-source-driven-development/SKILL.md"
+  },
+  "sql-analytics-workflows": {
+    "directory": "user-sql-analytics-workflows",
+    "legacy_name": "user-sql-analytics-workflows",
+    "path": "skills/user-sql-analytics-workflows/SKILL.md"
+  },
+  "sre-error-budgets-slos": {
+    "directory": "user-sre-error-budgets-slos",
+    "legacy_name": "user-sre-error-budgets-slos",
+    "path": "skills/user-sre-error-budgets-slos/SKILL.md"
+  },
+  "stakeholder-update-status": {
+    "directory": "user-stakeholder-update-status",
+    "legacy_name": "user-stakeholder-update-status",
+    "path": "skills/user-stakeholder-update-status/SKILL.md"
+  },
+  "statistics-inference": {
+    "directory": "user-statistics-inference",
+    "legacy_name": "user-statistics-inference",
+    "path": "skills/user-statistics-inference/SKILL.md"
+  },
+  "systematic-debugging": {
+    "directory": "user-systematic-debugging",
+    "legacy_name": "user-systematic-debugging",
+    "path": "skills/user-systematic-debugging/SKILL.md"
+  },
+  "systems-design-architecture": {
+    "directory": "user-systems-design-architecture",
+    "legacy_name": "user-systems-design-architecture",
+    "path": "skills/user-systems-design-architecture/SKILL.md"
+  },
+  "task-orchestrator": {
+    "directory": "user-task-orchestrator",
+    "legacy_name": "user-task-orchestrator",
+    "path": "skills/user-task-orchestrator/SKILL.md"
+  },
+  "technical-blog-deep-dive": {
+    "directory": "user-technical-blog-deep-dive",
+    "legacy_name": "user-technical-blog-deep-dive",
+    "path": "skills/user-technical-blog-deep-dive/SKILL.md"
+  },
+  "technical-diagramming-mermaid": {
+    "directory": "user-technical-diagramming-mermaid",
+    "legacy_name": "user-technical-diagramming-mermaid",
+    "path": "skills/user-technical-diagramming-mermaid/SKILL.md"
+  },
+  "test-driven-development": {
+    "directory": "user-test-driven-development",
+    "legacy_name": "user-test-driven-development",
+    "path": "skills/user-test-driven-development/SKILL.md"
+  },
+  "threat-modeling": {
+    "directory": "user-threat-modeling",
+    "legacy_name": "user-threat-modeling",
+    "path": "skills/user-threat-modeling/SKILL.md"
+  },
+  "threejs-3d-development": {
+    "directory": "user-threejs-3d-development",
+    "legacy_name": "user-threejs-3d-development",
+    "path": "skills/user-threejs-3d-development/SKILL.md"
+  },
+  "token-cost-optimization": {
+    "directory": "user-token-cost-optimization",
+    "legacy_name": "user-token-cost-optimization",
+    "path": "skills/user-token-cost-optimization/SKILL.md"
+  },
+  "tool-selection": {
+    "directory": "user-tool-selection",
+    "legacy_name": "user-tool-selection",
+    "path": "skills/user-tool-selection/SKILL.md"
+  },
+  "trigonometry": {
+    "directory": "user-trigonometry",
+    "legacy_name": "user-trigonometry",
+    "path": "skills/user-trigonometry/SKILL.md"
+  },
+  "tutoring-socratic-method": {
+    "directory": "user-tutoring-socratic-method",
+    "legacy_name": "user-tutoring-socratic-method",
+    "path": "skills/user-tutoring-socratic-method/SKILL.md"
+  },
+  "typescript-development": {
+    "directory": "user-typescript-development",
+    "legacy_name": "user-typescript-development",
+    "path": "skills/user-typescript-development/SKILL.md"
+  },
+  "ui-ux-design": {
+    "directory": "user-ui-ux-design",
+    "legacy_name": "user-ui-ux-design",
+    "path": "skills/user-ui-ux-design/SKILL.md"
+  },
+  "units-dimensional-analysis": {
+    "directory": "user-units-dimensional-analysis",
+    "legacy_name": "user-units-dimensional-analysis",
+    "path": "skills/user-units-dimensional-analysis/SKILL.md"
+  },
+  "video-script-storyboard": {
+    "directory": "user-video-script-storyboard",
+    "legacy_name": "user-video-script-storyboard",
+    "path": "skills/user-video-script-storyboard/SKILL.md"
+  },
+  "visual-quality-review": {
+    "directory": "user-visual-quality-review",
+    "legacy_name": "user-visual-quality-review",
+    "path": "skills/user-visual-quality-review/SKILL.md"
+  },
+  "vulnerability-detection": {
+    "directory": "user-vulnerability-detection",
+    "legacy_name": "user-vulnerability-detection",
+    "path": "skills/user-vulnerability-detection/SKILL.md"
+  },
+  "watermark-asset-rights": {
+    "directory": "user-watermark-asset-rights",
+    "legacy_name": "user-watermark-asset-rights",
+    "path": "skills/user-watermark-asset-rights/SKILL.md"
+  },
+  "web-application-security": {
+    "directory": "user-web-application-security",
+    "legacy_name": "user-web-application-security",
+    "path": "skills/user-web-application-security/SKILL.md"
+  }
+}

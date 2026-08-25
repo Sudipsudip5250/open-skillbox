@@ -1,4 +1,5 @@
 from pathlib import Path
+import json
 import re
 import sys
 
@@ -55,6 +56,24 @@ for path in sorted(SKILLS.glob("*/SKILL.md")):
     records.append((name, path))
 
 names = [name for name, _ in records]
+
+alias_path = ROOT / 'docs' / 'SKILL_ALIASES.json'
+if not alias_path.is_file():
+    errors.append(f'{alias_path}: generated alias manifest is missing')
+else:
+    try:
+        aliases = json.loads(alias_path.read_text(encoding='utf-8'))
+        expected_aliases = {name.removeprefix('user-') for name in names}
+        if set(aliases) != expected_aliases:
+            errors.append(f'{alias_path}: aliases do not match canonical skills')
+        for alias, record in aliases.items():
+            legacy = record.get('legacy_name')
+            directory = record.get('directory')
+            if legacy != f'user-{alias}' or directory != legacy:
+                errors.append(f'{alias_path}: invalid mapping for {alias!r}')
+    except (json.JSONDecodeError, OSError) as exc:
+        errors.append(f'{alias_path}: invalid JSON manifest ({exc})')
+
 for duplicate in sorted({name for name in names if names.count(name) > 1}):
     errors.append(f"duplicate skill name: {duplicate}")
 

@@ -1,9 +1,11 @@
 from pathlib import Path
+import json
 import re
 
 ROOT = Path(__file__).resolve().parents[1]
 SKILLS = ROOT / 'skills'
 OUT = ROOT / 'docs' / 'SKILL_INDEX.md'
+ALIASES = ROOT / 'docs' / 'SKILL_ALIASES.json'
 
 CATEGORIES = [
     ('Meta and orchestration', ['orchestrator', 'context', 'knowledge', 'project-delivery', 'brainstorming', 'skill-authoring', 'skill-quality', 'cost-efficient', 'tool-selection', 'source-driven']),
@@ -26,6 +28,8 @@ def metadata(path):
     return (name.group(1).strip() if name else path.parent.name, desc.group(1).strip() if desc else '')
 
 records = [metadata(p) + (p.parent.name,) for p in sorted(SKILLS.glob('*/SKILL.md'))]
+aliases = {name.removeprefix('user-'): {'legacy_name': name, 'directory': directory, 'path': f'skills/{directory}/SKILL.md'} for name, _, directory in records}
+ALIASES.write_text(json.dumps(aliases, indent=2, sort_keys=True) + '\n', encoding='utf-8')
 assigned = set()
 lines = ['# Skill Index', '', 'A grouped catalog of the modular skills in Agent Skill Kit. Each skill is independently installable. Load the smallest relevant set rather than the entire catalog.', '', f'**Current catalog:** {len(records)} skills.', '']
 for category, terms in CATEGORIES:
@@ -37,17 +41,17 @@ for category, terms in CATEGORIES:
             assigned.add(directory)
     if not rows:
         continue
-    lines += [f'## {category}', '', '| Skill | Trigger-oriented description |', '|---|---|']
+    lines += [f'## {category}', '', '| Portable alias | Legacy skill ID | Trigger-oriented description |', '|---|---|---|']
     for name, desc, directory in rows:
-        lines.append(f'| [`{name}`](../skills/{directory}/SKILL.md) | {desc} |')
+        lines.append(f'| `{name.removeprefix("user-")}` | [`{name}`](../skills/{directory}/SKILL.md) | {desc} |')
     lines.append('')
 
 uncategorized = [(name, desc, directory) for name, desc, directory in records if directory not in assigned]
 if uncategorized:
-    lines += ['## Other or newly added skills', '', '| Skill | Trigger-oriented description |', '|---|---|']
+    lines += ['## Other or newly added skills', '', '| Portable alias | Legacy skill ID | Trigger-oriented description |', '|---|---|---|']
     for name, desc, directory in uncategorized:
-        lines.append(f'| [`{name}`](../skills/{directory}/SKILL.md) | {desc} |')
+        lines.append(f'| `{name.removeprefix("user-")}` | [`{name}`](../skills/{directory}/SKILL.md) | {desc} |')
     lines.append('')
 
 OUT.write_text('\n'.join(lines).rstrip() + '\n', encoding='utf-8')
-print(f'Generated {OUT} with {len(records)} skills')
+print(f'Generated {OUT} and {ALIASES} with {len(records)} skills')

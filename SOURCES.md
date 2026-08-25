@@ -62,3 +62,9 @@ These sources inform original workflows only. The repository does not copy textb
 - [scikit-learn Model Evaluation](https://scikit-learn.org/stable/modules/model_evaluation.html) — versioned documentation on selecting scoring functions, cross-validation, metrics, and decision-aware evaluation.
 - [SymPy Documentation](https://docs.sympy.org/latest/index.html) — versioned documentation for symbolic mathematics, solvers, calculus, matrices, logic, and numerical evaluation.
 - [Mermaid Documentation](https://mermaid.js.org/intro/) — official documentation for text-defined diagrams and supported diagram types.
+- [Google SRE Workbook: Implementing SLOs](https://sre.google/workbook/implementing-slos/) — public guidance on service-level indicators, objectives, error budgets, and reliability decisions.
+- [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework) — official voluntary framework for managing AI risks and trustworthy evaluation.
+- [W3C Web Content Accessibility Guidelines Overview](https://www.w3.org/WAI/standards-guidelines/wcag/) — official accessibility standards overview and version guidance.
+- [MedlinePlus: Evaluating Health Information](https://medlineplus.gov/evaluatinghealthinformation.html) — official health-information source evaluation and professional-care boundary guidance.
+
+These references inform original workflow design only. The repository does not copy source text, proprietary templates, or vendor-specific private instructions.

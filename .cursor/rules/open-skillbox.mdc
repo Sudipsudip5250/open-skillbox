@@ -1,0 +1,6 @@
+---
+description: Route tasks to the portable Agent Skill Kit catalog while preserving safety and project boundaries
+alwaysApply: false
+---
+
+Use the canonical skills in `skills/` and `docs/SKILL_INDEX.md`. Start with `user-task-orchestrator`, load the smallest relevant subset, and preserve existing skill directories. Read `AGENTS.md` for safety and contribution boundaries. Host-specific setup and export instructions are in `docs/CROSS_AGENT_COMPATIBILITY.md`.

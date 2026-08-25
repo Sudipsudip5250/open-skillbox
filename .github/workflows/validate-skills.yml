@@ -21,11 +21,13 @@ jobs:
           python-version: '3.x'
       - name: Regenerate skill index
         run: python scripts/generate_skill_index.py
-      - name: Fail when generated index is stale
-        run: git diff --exit-code -- docs/SKILL_INDEX.md
+      - name: Fail when generated catalog artifacts are stale
+        run: git diff --exit-code -- docs/SKILL_INDEX.md docs/SKILL_ALIASES.json
       - name: Validate skill structure and public paths
         run: python scripts/validate_skills.py
       - name: Check defensive security quality bar
         run: python scripts/check_security_quality.py
+      - name: Smoke-test portable starter-pack export
+        run: python scripts/export_skills.py --pack web-app-team --destination "$RUNNER_TEMP/open-skillbox-export"
       - name: Check whitespace errors
         run: git diff --check
