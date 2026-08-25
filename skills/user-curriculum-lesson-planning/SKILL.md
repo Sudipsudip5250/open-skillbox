@@ -17,6 +17,10 @@ Create coherent lessons, units, objectives, activities, assessments, scaffolds, 
 4. Keep units, domains, assumptions, uncertainty, permissions, and exact-versus-approximate status visible.
 5. Interpret the result in the original context and identify what would change the conclusion.
 
+## Outcome and lesson-evidence design
+
+Write outcomes as observable learner actions with conditions and a success threshold. Align each activity, prompt, scaffold, and assessment to an outcome; include formative checks before the final task; and plan how feedback changes the next lesson. State what is intentionally not assessed.
+
 ## Verification and quality checks
 
 Check objective-assessment alignment, cognitive demand, pacing, accessibility, prerequisite coverage, differentiation, feedback points, and feasibility with available resources. Also perform an independent spot check, counterexample, replay, rendering, or alternate calculation whenever practical.

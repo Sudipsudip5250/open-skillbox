@@ -22,6 +22,10 @@ Identify the request, audience, source materials, constraints, assumptions, perm
 5. Communicate factual status, uncertainty, user impact, and next update time to the right audiences; do not speculate or disclose sensitive technical detail unnecessarily.
 6. Verify recovery with health, security, data-integrity, monitoring, and access checks; then conduct a blameless review and track corrective actions.
 
+## Runbook template
+
+For each action, record **precondition → owner → command or decision → expected result → evidence → rollback or stop condition**. Keep preparation, detection, containment, recovery, communication, and closure steps separately addressable. Mark destructive or externally visible actions as approval-gated and define a safe dry run where practical.
+
 ## Verification and quality checks
 
 Check authority and approvals, timeline consistency, evidence integrity, containment side effects, recovery health, credential rotation or access changes where applicable, monitoring coverage, and closure criteria.

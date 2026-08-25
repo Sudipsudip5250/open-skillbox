@@ -29,6 +29,10 @@ State the scope, assumptions, version or context, and intended audience before a
 
 These skills are educational and engineering aids, not substitutes for qualified professional review. Do not fabricate studies, measurements, citations, experimental results, or system behavior. Do not provide unsafe wet-lab, high-voltage, hazardous-material, medical, environmental-release, or physical-intervention instructions; keep procedures at a safe planning and analysis level and require appropriate institutional controls. Networking, systems, embedded, and architecture guidance assumes authorization and must not be used for credential theft, destructive exploitation, evasion, or unauthorized access. Do not expose secrets, private data, private infrastructure, or live exam answers.
 
+## Batch and streaming design
+
+For batch work, define partitions, backfills, replay behavior, idempotency keys, and late-arriving data. For streaming work, define event time versus processing time, ordering, lateness, deduplication, checkpointing, delivery semantics, and recovery. Make data-quality failures observable and choose whether to quarantine, retry, alert, or block downstream outputs.
+
 ## Composition and handoff
 
 Compose with `user-task-orchestrator` for routing, `user-scientific-research` for evidence and reproducibility, `user-data-analysis-reporting` for structured data, and focused engineering or security skills when implementation or risk review is required.

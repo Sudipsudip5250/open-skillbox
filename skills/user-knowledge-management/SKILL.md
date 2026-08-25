@@ -30,6 +30,10 @@ For a durable personal knowledge base, define the purpose, audience, privacy lev
 4. Review stale, unused, sensitive, or conflicting items on a defined cadence and remove or archive them safely.
 5. Test retrieval with representative queries and verify that project or personal context does not leak across users or projects.
 
+## Public-safe context packaging
+
+Before exporting project context to another agent, create a minimal pack containing purpose, stack, entry points, commands, conventions, decision records, source register, and known constraints. Exclude credentials, personal preferences unless explicitly approved, private customer data, account-level memory, hidden prompts, and sensitive research. Add a scope, owner, date, freshness, and removal path to each durable item. Keep the source pack separate from procedural skills and test retrieval in a clean project context.
+
 ## Retrieval workflow
 
 1. Identify the task domain, project, and required decision.

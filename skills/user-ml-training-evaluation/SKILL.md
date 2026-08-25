@@ -17,6 +17,10 @@ Plan, train, compare, and evaluate machine-learning models with leakage control,
 4. Keep units, domains, assumptions, uncertainty, permissions, and exact-versus-approximate status visible.
 5. Interpret the result in the original context and identify what would change the conclusion.
 
+## Feature and serving hygiene
+
+Track feature definition, source, owner, point-in-time availability, transformations, freshness, and access. Check training-serving skew and leakage across the feature pipeline. For each released model, keep a concise model card covering intended use, data scope, evaluation, limitations, subgroup behavior, monitoring signals, and rollback or retirement criteria.
+
 ## Verification and quality checks
 
 Check train-test contamination, class or target drift, baseline comparison, calibration, threshold trade-offs, confidence intervals or repeated splits, error slices, reproducibility, and whether the metric matches the decision. Also perform an independent spot check, counterexample, replay, rendering, or alternate calculation whenever practical.

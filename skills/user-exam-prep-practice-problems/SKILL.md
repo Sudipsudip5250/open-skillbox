@@ -17,6 +17,10 @@ Create ethical study plans, diagnostic practice, worked solutions, feedback, and
 4. Keep units, domains, assumptions, uncertainty, permissions, and exact-versus-approximate status visible.
 5. Interpret the result in the original context and identify what would change the conclusion.
 
+## Practice-item specification
+
+For each generated problem, record target concept, prerequisite, format, difficulty, novel surface variation, allowed resources, expected reasoning, answer, common wrong paths, hint sequence, and verification. Keep solutions separate from the prompt when the learner is practicing, and use mistakes to update the study plan rather than merely score the item.
+
 ## Verification and quality checks
 
 Check coverage against the syllabus, solution correctness, difficulty balance, error log, time realism, independent practice, and transfer to unseen variants. Also perform an independent spot check, counterexample, replay, rendering, or alternate calculation whenever practical.
