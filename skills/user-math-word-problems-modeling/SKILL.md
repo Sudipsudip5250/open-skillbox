@@ -5,6 +5,11 @@ description: Translate real-world word problems into variables, equations, inequ
 
 # Mathematical Word-Problem Modeling
 
+## Quick start
+
+Use this skill when the request matches **Translate real-world word problems into variables, equations, inequalities, functions, probability models, or optimization problems. Use when the main challenge is modeling a verbal situation.** Start with the smallest defensible input set, state what is known and unknown, then follow the method-selection workflow. Produce an intermediate record before the final answer so another agent can review or continue the work.
+
+
 ## Scope and classification
 
 Translate real-world word problems into variables, equations, inequalities, functions, probability models, or optimization problems. Use when the main challenge is modeling a verbal situation. Begin by identifying the mathematical objects, representations, constraints, and expected level of precision.
@@ -32,6 +37,44 @@ Explain why the method applies and name a common alternative when useful. Do not
 ## When not to use this skill
 
 Do not use this chapter skill for a problem whose main need is experimental evidence, a regulated personal decision, or production software implementation. Route scientific applications to scientific research and units or experimental-design skills, data analysis to the data skill, and code implementation to software engineering while retaining the mathematical method where relevant.
+
+## Inputs and decision points
+
+| Stage | Required record | Decision or escalation |
+|---|---|---|
+| Frame | Request, audience, scope, constraints, permissions, source material, and expected precision | If a required input is missing, ask one blocking question or label the assumption. |
+| Select | Applicable method, alternatives considered, and why the selected path fits | Declare unit of analysis, grain, schema, population, time window, denominator, provenance, missingness, and the decision the result must support before calculating. |
+| Act | Ordered steps, tool or artifact inputs, expected intermediate result, and stop condition | Keep changes reversible and record approval before external, destructive, or high-impact actions. |
+| Interpret | Result, uncertainty, limitations, and what would change the conclusion | Separate verified observations, calculations, inferences, and recommendations. |
+
+## Worked pattern
+
+For a request involving **math-word-problems-modeling**, use this compact record:
+
+```text
+Request: [the concrete task and intended outcome]
+Scope and inputs: [files, data, versions, permissions, audience]
+Classification: [task type, risk, and relevant branch]
+Method: [selected procedure and why alternatives were rejected]
+Steps: [ordered actions with intermediate outputs]
+Result: [answer or artifact, separated from interpretation]
+Checks: [independent verification, edge cases, safety, accessibility, or reproducibility]
+Handoff: [files, owners, limitations, and next action]
+```
+
+Do not fill this pattern with invented evidence. If the task is underspecified, keep placeholders visible or ask for the missing decision.
+
+## Failure handling
+
+When the normal path fails, reduce the problem to the smallest reproducible case, preserve the original inputs, and record the first failing step. If data is incomplete or definitions conflict, preserve the ambiguity, show the affected result, and request a source-of-truth decision instead of silently coercing values. If a tool, source, or host is unavailable, provide a tool-neutral alternative and label what remains unverified.
+
+## Portability and maintenance
+
+Keep the procedure independent of a particular agent host, shell, vendor, model, or private repository. Use canonical `SKILL.md` instructions and refer to host-specific setup only through documented adapters. For data and quantitative work, record the relevant version, source date, configuration, or environment when it can change the result. Re-check this skill when an API, standard, policy, model capability, safety requirement, or user workflow changes.
+
+## Verification and quality checks
+
+reconcile totals, inspect nulls and duplicates, test boundary dates and exclusions, compare with an alternate calculation or baseline, and report uncertainty and data freshness. Record the exact checks run, what they establish, what they cannot establish, and any manual or unavailable check.
 
 ## Handoff
 

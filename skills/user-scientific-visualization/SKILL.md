@@ -5,6 +5,11 @@ description: Design accurate plots, diagrams, maps, uncertainty displays, and ex
 
 # Scientific Visualization
 
+## Quick start
+
+Use this skill when the request matches **Design accurate plots, diagrams, maps, uncertainty displays, and explanatory scientific figures. Use for communicating measured, modeled, or simulated data.** Start with the smallest defensible input set, state what is known and unknown, then follow the method-selection workflow. Produce an intermediate record before the final answer so another agent can review or continue the work.
+
+
 ## Scope and classification
 
 Design accurate plots, diagrams, maps, uncertainty displays, and explanatory scientific figures. Use for communicating measured, modeled, or simulated data. Begin by identifying the system, objects, evidence, constraints, and expected level of precision.
@@ -17,6 +22,32 @@ Design accurate plots, diagrams, maps, uncertainty displays, and explanatory sci
 4. Keep units, domains, assumptions, uncertainty, permissions, and exact-versus-approximate status visible.
 5. Interpret the result in the original context and identify what would change the conclusion.
 
+## Inputs and decision points
+
+| Stage | Required record | Decision or escalation |
+|---|---|---|
+| Frame | Request, audience, scope, constraints, permissions, source material, and expected precision | If a required input is missing, ask one blocking question or label the assumption. |
+| Select | Applicable method, alternatives considered, and why the selected path fits | Define the request, audience, inputs, constraints, authority, expected precision, and decision or artifact that the work must support before selecting a method. |
+| Act | Ordered steps, tool or artifact inputs, expected intermediate result, and stop condition | Keep changes reversible and record approval before external, destructive, or high-impact actions. |
+| Interpret | Result, uncertainty, limitations, and what would change the conclusion | Separate verified observations, calculations, inferences, and recommendations. |
+
+## Worked pattern
+
+For a request involving **scientific-visualization**, use this compact record:
+
+```text
+Request: [the concrete task and intended outcome]
+Scope and inputs: [files, data, versions, permissions, audience]
+Classification: [task type, risk, and relevant branch]
+Method: [selected procedure and why alternatives were rejected]
+Steps: [ordered actions with intermediate outputs]
+Result: [answer or artifact, separated from interpretation]
+Checks: [independent verification, edge cases, safety, accessibility, or reproducibility]
+Handoff: [files, owners, limitations, and next action]
+```
+
+Do not fill this pattern with invented evidence. If the task is underspecified, keep placeholders visible or ask for the missing decision.
+
 ## Verification and quality checks
 
 Check axes, units, scales, color accessibility, aggregation, missingness, uncertainty visibility, perceptual distortion, reproducibility, and agreement with source totals. Also perform an independent spot check, counterexample, replay, rendering, or alternate calculation whenever practical.
@@ -24,6 +55,14 @@ Check axes, units, scales, color accessibility, aggregation, missingness, uncert
 ## Cross-domain quality rules
 
 State the scope, assumptions, version or context, and intended audience before applying the method. Prefer a simple model that is explicit about what it omits. Separate observations, calculations, model outputs, interpretations, and recommendations. Preserve provenance for data, code, diagrams, and sources, and make important results reproducible.
+
+## Failure handling
+
+When the normal path fails, reduce the problem to the smallest reproducible case, preserve the original inputs, and record the first failing step. If information is missing or conflicting, state the uncertainty, ask only blocking questions, and avoid fabricating evidence, permissions, results, or completed actions. If a tool, source, or host is unavailable, provide a tool-neutral alternative and label what remains unverified.
+
+## Portability and maintenance
+
+Keep the procedure independent of a particular agent host, shell, vendor, model, or private repository. Use canonical `SKILL.md` instructions and refer to host-specific setup only through documented adapters. For general professional workflow, record the relevant version, source date, configuration, or environment when it can change the result. Re-check this skill when an API, standard, policy, model capability, safety requirement, or user workflow changes.
 
 ## Safety and non-goals
 
