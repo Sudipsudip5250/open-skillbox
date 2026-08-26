@@ -38,13 +38,14 @@ From the repository root, regenerate the public catalog and run the validator:
 ```bash
 python scripts/generate_skill_index.py
 python scripts/validate_skills.py
+python scripts/check_skill_depth.py
 python scripts/check_security_quality.py
 python scripts/export_skills.py --pack web-app-team --destination /tmp/open-skillbox-smoke-test
 git diff --check
 
 ```
 
-If a skill was added, removed, or renamed, include the regenerated `docs/SKILL_INDEX.md`. CI also regenerates the index and fails if the checked-in result is stale. Review the diff for broken links, copied or private content, vague triggers, duplicated scope, unsafe instructions, and accidental changes outside the focused contribution.
+If a skill was added, removed, or renamed, include the regenerated `docs/SKILL_INDEX.md` and `docs/SKILL_ALIASES.json`. CI also regenerates the catalog, checks durable depth, and fails if generated artifacts are stale. Review the diff for broken links, copied or private content, vague triggers, duplicated scope, unsafe instructions, missing examples or failure handling, and accidental changes outside the focused contribution. Use [ECOSYSTEM_BENCHMARK.md](docs/ECOSYSTEM_BENCHMARK.md) as the maintenance standard and [MANUS_QUICKSTART.md](docs/MANUS_QUICKSTART.md) to test a representative workflow.
 
 ## Pull requests
 

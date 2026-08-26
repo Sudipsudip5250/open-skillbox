@@ -25,6 +25,8 @@ jobs:
         run: git diff --exit-code -- docs/SKILL_INDEX.md docs/SKILL_ALIASES.json
       - name: Validate skill structure and public paths
         run: python scripts/validate_skills.py
+      - name: Check durable skill depth
+        run: python scripts/check_skill_depth.py
       - name: Check defensive security quality bar
         run: python scripts/check_security_quality.py
       - name: Smoke-test portable starter-pack export

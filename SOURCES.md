@@ -66,5 +66,10 @@ These sources inform original workflows only. The repository does not copy textb
 - [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework) — official voluntary framework for managing AI risks and trustworthy evaluation.
 - [W3C Web Content Accessibility Guidelines Overview](https://www.w3.org/WAI/standards-guidelines/wcag/) — official accessibility standards overview and version guidance.
 - [MedlinePlus: Evaluating Health Information](https://medlineplus.gov/evaluatinghealthinformation.html) — official health-information source evaluation and professional-care boundary guidance.
+- [Vercel Agent Skills documentation](https://vercel.com/docs/agent-resources/skills) — official installation, composition, and ecosystem guidance.
+- [Vercel Labs agent-skills repository](https://github.com/vercel-labs/agent-skills) — public examples of packaged skills, optional resources, repository pointers, and discovery tooling.
+- [Claude Agent Skills overview](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview) — progressive disclosure, filesystem packaging, resources, runtime constraints, and skill security considerations.
+- [Cursor Agent Skills documentation](https://cursor.com/docs/skills) — portable package structure, discovery locations, optional frontmatter, path scoping, and scripts/references/assets.
+- [Agent Skills open format](https://agentskills.io/home) — lightweight, portable, filesystem-oriented skill format overview.
 
 These references inform original workflow design only. The repository does not copy source text, proprietary templates, or vendor-specific private instructions.

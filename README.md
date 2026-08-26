@@ -25,7 +25,7 @@ Browse the complete grouped catalog in [docs/SKILL_INDEX.md](docs/SKILL_INDEX.md
 
 ## Starter packs and cross-agent use
 
-Use the curated [starter packs](docs/STARTER_PACKS.md) for a web-app team, solo builder, security review, student STEM workflow, or content creator. The portable [cross-agent compatibility guide](docs/CROSS_AGENT_COMPATIBILITY.md) covers Manus, Claude Code, Codex, Cursor, Replit, Kiro, Kilo, Antigravity, OpenCode, Mimo Code, and future hosts. `AGENTS.md`, `CLAUDE.md`, and `.cursor/rules/open-skillbox.mdc` are lightweight host pointers; the canonical source remains under `skills/`.
+Use the curated [starter packs](docs/STARTER_PACKS.md) for a web-app team, solo builder, security review, student STEM workflow, or content creator. The [Manus quick-start](docs/MANUS_QUICKSTART.md) and [example workflow](docs/MANUS_EXAMPLE_WORKFLOW.md) show a complete orchestrator-first setup. The portable [cross-agent compatibility guide](docs/CROSS_AGENT_COMPATIBILITY.md) covers Manus, Claude Code, Codex, Cursor, Replit, Kiro, Kilo, Antigravity, OpenCode, Mimo Code, and future hosts. `AGENTS.md`, `CLAUDE.md`, and `.cursor/rules/open-skillbox.mdc` are lightweight host pointers; the canonical source remains under `skills/`.
 
 Use `scripts/export_skills.py` to copy a selected skill or starter pack to an explicit host destination. Host paths and frontmatter behavior vary, so the repository promises portable content and documented setup—not identical native installation behavior.
 
@@ -47,7 +47,7 @@ Security and infrastructure skills require an explicitly authorized target, defi
 
 ## Quality principles
 
-Skills should be concise, actionable, version-aware, evidence-led, and independently useful. A new module should have a distinct trigger, explicit overlap analysis, clear assumptions and non-goals, verification checks, safe handoff, and authoritative references for time-sensitive guidance. Existing skills should be preserved and improved surgically rather than merged or deleted merely to reduce the count.
+Skills should be concise, actionable, version-aware, evidence-led, and independently useful. A new module should have a distinct trigger, explicit overlap analysis, clear assumptions and non-goals, verification checks, safe handoff, and authoritative references for time-sensitive guidance. Existing skills should be preserved and improved surgically rather than merged or deleted merely to reduce the count. The [ecosystem benchmark](docs/ECOSYSTEM_BENCHMARK.md) explains the quality model, and the repository’s depth gate keeps each module operationally complete without requiring textbook-sized files.
 
 ## Contributing
 
