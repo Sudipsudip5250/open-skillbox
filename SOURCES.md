@@ -71,5 +71,9 @@ These sources inform original workflows only. The repository does not copy textb
 - [Claude Agent Skills overview](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview) — progressive disclosure, filesystem packaging, resources, runtime constraints, and skill security considerations.
 - [Cursor Agent Skills documentation](https://cursor.com/docs/skills) — portable package structure, discovery locations, optional frontmatter, path scoping, and scripts/references/assets.
 - [Agent Skills open format](https://agentskills.io/home) — lightweight, portable, filesystem-oriented skill format overview.
+- [Manus: Context Engineering for AI Agents](https://manus.im/blog/Context-Engineering-for-AI-Agents-Lessons-from-Building-Manus) — public guidance on filesystem-based externalized context, task recitation, recoverable references, and context management.
+- [Claude Code: How Claude remembers your project](https://code.claude.com/docs/en/memory) — current guidance on `CLAUDE.md`, auto memory, scopes, and the distinction between context and hard enforcement.
+- [Claude Code: Explore the context window](https://code.claude.com/docs/en/context-window) — current guidance on context loading, compaction, skills, rules, memory, and subagent context.
+- [Anthropic: Effective context engineering for AI agents](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents) — guidance on progressive disclosure, structured note-taking, compaction, and externalized state.
 
 These references inform original workflow design only. The repository does not copy source text, proprietary templates, or vendor-specific private instructions.
